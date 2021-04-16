@@ -1,0 +1,10 @@
+.foreground {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 40% 0;
+    min-height: 200px;
+    background-color: rgb(135, 189, 135);
+  }
