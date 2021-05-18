@@ -42,7 +42,7 @@ console.log(minIndex([-1, 5, 0, 8, -7, 10, -2]))
 function maxIndex(array) {
     var max = 0;
     for (var i = 1; i < array.length + 1; i++) {
-        if (array[min] < array[i]) {
+        if (array[max] < array[i]) {
             max = i;
         }
     }
